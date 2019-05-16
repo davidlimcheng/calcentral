@@ -17,6 +17,7 @@ The ShowMore component is used to expand content based on a user's click.
 - expanded: Boolean (required)
 - text: String (required)
 - view: Node (required)
+- anotherProp: Example
 
 #### clickHandler
 Function that handles the callback when the user clicks on the ShowMore button. Usually will update a component's state - specifically the boolean that is passed down to `expanded`. 
